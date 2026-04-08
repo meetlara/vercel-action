@@ -1,4 +1,5 @@
 import type { ActionConfig, OctokitClient, PullRequestPayload } from './types'
+import path from 'node:path'
 import * as core from '@actions/core'
 import * as github from '@actions/github'
 import packageJSON from '../package.json'
@@ -78,7 +79,9 @@ export function getActionConfig(): ActionConfig {
     githubComment: getGithubCommentInput(core.getInput('github-comment')),
     githubDeployment: core.getInput('github-deployment') === 'true',
     githubDeploymentEnvironment: resolveDeploymentEnvironment(githubDeploymentEnvInput, vercelArgs),
-    workingDirectory: core.getInput('working-directory'),
+    workingDirectory: core.getInput('working-directory')
+      ? path.resolve(core.getInput('working-directory'))
+      : '',
     vercelToken,
     vercelArgs,
     vercelOrgId: core.getInput('vercel-org-id'),
