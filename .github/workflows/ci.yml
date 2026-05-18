@@ -30,8 +30,10 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Validate PR title
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-          echo "${{ github.event.pull_request.title }}" | pnpm exec commitlint
+          echo "$PR_TITLE" | pnpm exec commitlint
 
       - name: Validate commits
         if: github.event.pull_request.commits > 1
