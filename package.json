@@ -39,15 +39,15 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/exec": "^1.0.3",
-    "@actions/github": "^9.0.0",
-    "@actions/http-client": "^2.2.3",
+    "@actions/core": "^3.0.1",
+    "@actions/exec": "^3.0.0",
+    "@actions/github": "^9.1.1",
+    "@actions/http-client": "^4.0.1",
     "@octokit/webhooks": "latest",
     "@vercel/client": "17.5.0",
     "axios": "^1.16.1",
     "common-tags": "^1.8.0",
-    "vercel": "^52.2.1"
+    "vercel": "^54.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
@@ -61,9 +61,31 @@
     "emulate": "^0.5.0",
     "esbuild": "^0.28.0",
     "eslint": "^9.39.4",
+    "hono": "^4.12.18",
     "husky": "^9.1.7",
     "typescript": "^5.7.0",
     "vitest": "^3.2.4",
     "yaml": "^2.8.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@tootallnate/once@2.0.0": "^3.0.1",
+      "ajv@8.6.3": "^8.18.0",
+      "brace-expansion@5.0.5": "^5.0.6",
+      "cookie@0.4.0": "^0.7.0",
+      "minimatch@5.0.1": "^5.1.8",
+      "minimatch@10.1.1": "^10.2.3",
+      "path-to-regexp@0.1.12": "^0.1.13",
+      "path-to-regexp@6.1.0": "^6.3.0",
+      "path-to-regexp@6.2.1": "^6.3.0",
+      "path-to-regexp@8.2.0": "^8.4.0",
+      "path-to-regexp@8.3.0": "^8.4.0",
+      "postcss@8.4.31": "^8.5.10",
+      "smol-toml@1.5.2": "^1.6.1",
+      "srvx@0.8.9": "^0.11.13",
+      "tar@7.5.7": "^7.5.11",
+      "tar-fs@1.16.3": "^1.16.6",
+      "undici@5.28.4": "^6.24.0"
+    }
   }
 }
