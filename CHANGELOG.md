@@ -1,5 +1,18 @@
 # Changelog
 
+## [42.2.0](https://github.com/meetlara/vercel-action/compare/v42.1.0...v42.2.0) (2026-05-18)
+
+
+### Features
+
+* GitHub Deployment integration ([#322](https://github.com/meetlara/vercel-action/issues/322)) ([3c572bd](https://github.com/meetlara/vercel-action/commit/3c572bd13515d06e00ca6581eb83a54be340e072))
+
+
+### Bug Fixes
+
+* resolve working-directory to absolute path for API-based deployment ([#2](https://github.com/meetlara/vercel-action/issues/2)) ([92987a3](https://github.com/meetlara/vercel-action/commit/92987a394276c61348511673ee2d5d7c974db405))
+* **security:** autofix Template Injection in GitHub Workflows Action ([#13](https://github.com/meetlara/vercel-action/issues/13)) ([640cf3a](https://github.com/meetlara/vercel-action/commit/640cf3a8b4f82d7cadf2f47ce5ddde4f35fc156a))
+
 ## [42.1.0](https://github.com/amondnet/vercel-action/compare/v42.0.0...v42.1.0) (2026-03-29)
 
 
