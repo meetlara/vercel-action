@@ -103780,7 +103780,7 @@ var import_node_path = __toESM(require("node:path"));
 // package.json
 var package_default = {
   name: "vercel-action",
-  version: "42.1.0",
+  version: "42.2.0",
   private: true,
   packageManager: "pnpm@10.15.0",
   author: {
@@ -103823,7 +103823,7 @@ var package_default = {
     "@actions/exec": "^3.0.0",
     "@actions/github": "^9.1.1",
     "@actions/http-client": "^4.0.1",
-    "@octokit/webhooks": "latest",
+    "@octokit/webhooks": "^14.2.0",
     "@vercel/client": "17.5.0",
     axios: "^1.16.1",
     "common-tags": "^1.8.0",
@@ -103853,8 +103853,8 @@ var package_default = {
       "ajv@8.6.3": "^8.18.0",
       "brace-expansion@5.0.5": "^5.0.6",
       "cookie@0.4.0": "^0.7.0",
-      "minimatch@5.0.1": "^5.1.8",
       "minimatch@10.1.1": "^10.2.3",
+      "minimatch@5.0.1": "^5.1.8",
       "path-to-regexp@0.1.12": "^0.1.13",
       "path-to-regexp@6.1.0": "^6.3.0",
       "path-to-regexp@6.2.1": "^6.3.0",
@@ -103863,8 +103863,8 @@ var package_default = {
       "postcss@8.4.31": "^8.5.10",
       "smol-toml@1.5.2": "^1.6.1",
       "srvx@0.8.9": "^0.11.13",
-      "tar@7.5.7": "^7.5.11",
       "tar-fs@1.16.3": "^1.16.6",
+      "tar@7.5.7": "^7.5.11",
       "undici@5.28.4": "^6.24.0"
     }
   }
