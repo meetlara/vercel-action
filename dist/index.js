@@ -103780,7 +103780,7 @@ var import_node_path = __toESM(require("node:path"));
 // package.json
 var package_default = {
   name: "vercel-action",
-  version: "42.1.0",
+  version: "42.2.0",
   private: true,
   packageManager: "pnpm@10.15.0",
   author: {
