@@ -103823,7 +103823,7 @@ var package_default = {
     "@actions/exec": "^3.0.0",
     "@actions/github": "^9.1.1",
     "@actions/http-client": "^4.0.1",
-    "@octokit/webhooks": "latest",
+    "@octokit/webhooks": "^14.2.0",
     "@vercel/client": "17.5.0",
     axios: "^1.16.1",
     "common-tags": "^1.8.0",
