@@ -68,6 +68,16 @@
     "yaml": "^2.8.3"
   },
   "pnpm": {
+    "ignoredOptionalDependencies": [
+      "@img/sharp-libvips-linux-arm",
+      "@img/sharp-libvips-linux-ppc64",
+      "@img/sharp-libvips-linux-riscv64",
+      "@img/sharp-libvips-linux-s390x",
+      "@img/sharp-linux-arm",
+      "@img/sharp-linux-ppc64",
+      "@img/sharp-linux-riscv64",
+      "@img/sharp-linux-s390x"
+    ],
     "overrides": {
       "@tootallnate/once@2.0.0": "^3.0.1",
       "ajv@8.6.3": "^8.18.0",
