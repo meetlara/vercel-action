@@ -23,10 +23,10 @@ vi.mock('@vercel/client', () => ({
 }))
 
 vi.mock('@actions/http-client', () => ({
-  HttpClient: vi.fn(() => ({
-    get: vi.fn(),
-    post: vi.fn(),
-  })),
+  HttpClient: vi.fn(class {
+    get = vi.fn()
+    post = vi.fn()
+  }),
 }))
 
 function createConfig(overrides: Partial<ActionConfig> = {}): ActionConfig {
