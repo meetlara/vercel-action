@@ -103837,17 +103837,27 @@ var package_default = {
     "@types/common-tags": "^1.8.4",
     "@types/node": "^24.0.0",
     "@vercel/ncc": "^0.38.4",
-    "@vitest/coverage-v8": "^3.0.0",
+    "@vitest/coverage-v8": "^4.1.8",
     emulate: "^0.5.0",
     esbuild: "^0.28.0",
     eslint: "^9.39.4",
     hono: "^4.12.18",
     husky: "^9.1.7",
     typescript: "^5.7.0",
-    vitest: "^3.2.4",
+    vitest: "^4.1.8",
     yaml: "^2.8.3"
   },
   pnpm: {
+    ignoredOptionalDependencies: [
+      "@img/sharp-libvips-linux-arm",
+      "@img/sharp-libvips-linux-ppc64",
+      "@img/sharp-libvips-linux-riscv64",
+      "@img/sharp-libvips-linux-s390x",
+      "@img/sharp-linux-arm",
+      "@img/sharp-linux-ppc64",
+      "@img/sharp-linux-riscv64",
+      "@img/sharp-linux-s390x"
+    ],
     overrides: {
       "@tootallnate/once@2.0.0": "^3.0.1",
       "ajv@8.6.3": "^8.18.0",
