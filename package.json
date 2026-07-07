@@ -59,7 +59,7 @@
     "@vercel/ncc": "^0.38.4",
     "@vitest/coverage-v8": "^4.1.8",
     "emulate": "^0.5.0",
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.1",
     "eslint": "^9.39.4",
     "hono": "^4.12.25",
     "husky": "^9.1.7",
