@@ -30,7 +30,6 @@ overrides:
   undici@5.28.4: ^6.27.0
   undici@6.25.0: ^6.27.0
   undici@7.25.0: ^7.28.0
-  vite@7.3.2: ^7.3.6
   zod@4.1.11: ^4.4.0
 
 importers:
@@ -54,7 +53,7 @@ importers:
         version: 14.2.0
       '@vercel/client':
         specifier: 17.5.0
-        version: 17.5.0(encoding@0.1.13)(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+        version: 17.5.0(encoding@0.1.13)(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
       axios:
         specifier: ^1.16.1
         version: 1.16.1
@@ -107,9 +106,12 @@ importers:
       typescript:
         specifier: ^5.7.0
         version: 5.9.3
+      vite:
+        specifier: ^7.3.6
+        version: 7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
       vitest:
         specifier: ^4.1.8
-        version: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+        version: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
       yaml:
         specifier: ^2.8.3
         version: 2.8.3
@@ -2029,7 +2031,7 @@ packages:
       next: '>=13'
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
-      vite: ^7.3.6
+      vite: '>=5'
     peerDependenciesMeta:
       '@sveltejs/kit':
         optional: true
@@ -2159,7 +2161,7 @@ packages:
     resolution: {integrity: sha512-LEiN/xe4OSIbKe9HQIp5OC24agGD9J5CnmMgsLohVVoOPWL9a2sBoR6VBx43jQZb7Kr1l4RCuyCJzcAa0+dojw==}
     peerDependencies:
       msw: ^2.4.9
-      vite: ^7.3.6
+      vite: ^6.0.0 || ^7.0.0 || ^8.0.0
     peerDependenciesMeta:
       msw:
         optional: true
@@ -5022,10 +5024,6 @@ packages:
     resolution: {integrity: sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==}
     engines: {node: '>=18'}
 
-  tinyglobby@0.2.16:
-    resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
-    engines: {node: '>=12.0.0'}
-
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
@@ -5232,8 +5230,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  vite@7.3.2:
-    resolution: {integrity: sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==}
+  vite@7.3.6:
+    resolution: {integrity: sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -5288,7 +5286,7 @@ packages:
       '@vitest/ui': 4.1.8
       happy-dom: '*'
       jsdom: '*'
-      vite: ^7.3.6
+      vite: ^6.0.0 || ^7.0.0 || ^8.0.0
     peerDependenciesMeta:
       '@edge-runtime/vm':
         optional: true
@@ -6512,7 +6510,7 @@ snapshots:
       detect-libc: 2.1.2
       is-glob: 4.0.3
       node-addon-api: 7.1.1
-      picomatch: 4.0.4
+      picomatch: 4.0.5
     optionalDependencies:
       '@parcel/watcher-android-arm64': 2.5.6
       '@parcel/watcher-darwin-arm64': 2.5.6
@@ -6583,7 +6581,7 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.9
       estree-walker: 2.0.2
-      picomatch: 4.0.4
+      picomatch: 4.0.5
     optionalDependencies:
       rollup: 4.62.2
 
@@ -7037,11 +7035,11 @@ snapshots:
       xdg-app-paths: 5.1.0
       zod: 4.4.3
 
-  '@vercel/client@17.5.0(encoding@0.1.13)(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
+  '@vercel/client@17.5.0(encoding@0.1.13)(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       '@vercel/build-utils': 13.24.0
       '@vercel/error-utils': 2.1.0
-      '@vercel/microfrontends': 1.2.2(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+      '@vercel/microfrontends': 1.2.2(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
       '@vercel/routing-utils': 6.2.0
       async-retry: 1.2.3
       async-sema: 3.0.0
@@ -7263,7 +7261,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/microfrontends@1.2.2(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
+  '@vercel/microfrontends@1.2.2(next@16.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       '@next/env': 15.1.6
       ajv: 8.20.0
@@ -7278,7 +7276,7 @@ snapshots:
       next: 16.2.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.99.0)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
-      vite: 7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
+      vite: 7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
     transitivePeerDependencies:
       - debug
 
@@ -7330,7 +7328,7 @@ snapshots:
       glob: 13.0.6
       graceful-fs: 4.2.11
       node-gyp-build: 4.8.4
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       resolve-from: 5.0.0
     transitivePeerDependencies:
       - encoding
@@ -7547,7 +7545,7 @@ snapshots:
       obug: 2.1.1
       std-env: 4.1.0
       tinyrainbow: 3.1.0
-      vitest: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+      vitest: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
 
   '@vitest/eslint-plugin@1.3.4(eslint@9.39.4(jiti@2.5.1))(typescript@5.9.3)(vitest@4.1.8)':
     dependencies:
@@ -7555,7 +7553,7 @@ snapshots:
       eslint: 9.39.4(jiti@2.5.1)
     optionalDependencies:
       typescript: 5.9.3
-      vitest: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+      vitest: 4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -7568,13 +7566,13 @@ snapshots:
       chai: 6.2.2
       tinyrainbow: 3.1.0
 
-  '@vitest/mocker@4.1.8(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
+  '@vitest/mocker@4.1.8(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))':
     dependencies:
       '@vitest/spy': 4.1.8
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
+      vite: 7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
 
   '@vitest/pretty-format@4.1.8':
     dependencies:
@@ -8493,7 +8491,7 @@ snapshots:
       get-tsconfig: 4.14.0
       is-bun-module: 2.0.0
       stable-hash: 0.0.5
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       unrs-resolver: 1.11.1
     optionalDependencies:
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.57.2(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.34.0(jiti@2.5.1))
@@ -9042,10 +9040,6 @@ snapshots:
   fd-slicer@1.1.0:
     dependencies:
       pend: 1.2.0
-
-  fdir@6.5.0(picomatch@4.0.4):
-    optionalDependencies:
-      picomatch: 4.0.4
 
   fdir@6.5.0(picomatch@4.0.5):
     optionalDependencies:
@@ -10423,7 +10417,7 @@ snapshots:
 
   postcss@8.5.14:
     dependencies:
-      nanoid: 3.3.12
+      nanoid: 3.3.16
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -11088,15 +11082,10 @@ snapshots:
 
   tinyexec@1.2.4: {}
 
-  tinyglobby@0.2.16:
-    dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
-
   tinyglobby@0.2.17:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.4)
-      picomatch: 4.0.4
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
 
   tinyrainbow@3.1.0: {}
 
@@ -11128,7 +11117,7 @@ snapshots:
 
   ts-declaration-location@1.0.7(typescript@5.9.3):
     dependencies:
-      picomatch: 4.0.4
+      picomatch: 4.0.5
       typescript: 5.9.3
 
   ts-morph@12.0.0:
@@ -11397,9 +11386,9 @@ snapshots:
       - rollup
       - supports-color
 
-  vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3):
+  vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3):
     dependencies:
-      esbuild: 0.27.7
+      esbuild: 0.28.1
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
       postcss: 8.5.19
@@ -11413,10 +11402,10 @@ snapshots:
       tsx: 4.21.0
       yaml: 2.8.3
 
-  vitest@4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)):
+  vitest@4.1.8(@edge-runtime/vm@3.2.0)(@types/node@24.12.0)(@vitest/coverage-v8@4.1.8)(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       '@vitest/expect': 4.1.8
-      '@vitest/mocker': 4.1.8(vite@7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
+      '@vitest/mocker': 4.1.8(vite@7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3))
       '@vitest/pretty-format': 4.1.8
       '@vitest/runner': 4.1.8
       '@vitest/snapshot': 4.1.8
@@ -11433,7 +11422,7 @@ snapshots:
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 7.3.2(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
+      vite: 7.3.6(@types/node@24.12.0)(jiti@2.5.1)(sass@1.99.0)(tsx@4.21.0)(yaml@2.8.3)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@edge-runtime/vm': 3.2.0

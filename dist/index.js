@@ -22439,9 +22439,9 @@ var require_lib3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/hashes.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/hashes.js
 var require_hashes = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/hashes.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/hashes.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -22527,9 +22527,9 @@ var require_hashes = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/query-string.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/query-string.js
 var require_query_string = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/query-string.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/query-string.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -22576,9 +22576,9 @@ var require_query_string = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/ready-state.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/ready-state.js
 var require_ready_state = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/ready-state.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/ready-state.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -29579,9 +29579,9 @@ var require_ignore = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/package.json
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/package.json
 var require_package = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/package.json"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/package.json"(exports2, module2) {
     module2.exports = {
       name: "@vercel/client",
       version: "17.5.0",
@@ -29639,9 +29639,9 @@ var require_package = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/pkg.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/pkg.js
 var require_pkg = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/pkg.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/pkg.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -84397,9 +84397,9 @@ var require_minimatch = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/readdir-recursive.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/readdir-recursive.js
 var require_readdir_recursive = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/readdir-recursive.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/readdir-recursive.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -91146,7 +91146,7 @@ var require_out4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+microfrontends@1.2.2_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@19.2.4_sa_39e29d521dc62cfc0d6b51f5ae7b2264/node_modules/@vercel/microfrontends/dist/microfrontends/utils.js
+// node_modules/.pnpm/@vercel+microfrontends@1.2.2_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@19.2.4_sa_97487bff307a90d4ac23973364880567/node_modules/@vercel/microfrontends/dist/microfrontends/utils.js
 var utils_exports2 = {};
 __export(utils_exports2, {
   findConfig: () => findConfig,
@@ -91234,7 +91234,7 @@ function inferMicrofrontendsLocation(opts) {
 }
 var import_node_fs, import_node_path2, import_node_path3, import_node_fs2, import_fast_glob, CONFIGURATION_FILENAMES, MicrofrontendError, configCache;
 var init_utils = __esm({
-  "node_modules/.pnpm/@vercel+microfrontends@1.2.2_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@19.2.4_sa_39e29d521dc62cfc0d6b51f5ae7b2264/node_modules/@vercel/microfrontends/dist/microfrontends/utils.js"() {
+  "node_modules/.pnpm/@vercel+microfrontends@1.2.2_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@19.2.4_sa_97487bff307a90d4ac23973364880567/node_modules/@vercel/microfrontends/dist/microfrontends/utils.js"() {
     import_node_fs = __toESM(require("node:fs"), 1);
     import_node_path2 = require("node:path");
     import_node_path3 = require("node:path");
@@ -91339,9 +91339,9 @@ var init_utils = __esm({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/index.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/index.js
 var require_utils9 = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/index.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/index.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -91823,9 +91823,9 @@ var require_ms = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/get-polling-delay.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/get-polling-delay.js
 var require_get_polling_delay = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/get-polling-delay.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/get-polling-delay.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -91875,9 +91875,9 @@ var require_get_polling_delay = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/check-deployment-status.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/check-deployment-status.js
 var require_check_deployment_status = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/check-deployment-status.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/check-deployment-status.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -92068,9 +92068,9 @@ var require_check_deployment_status = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/deploy.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/deploy.js
 var require_deploy = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/deploy.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/deploy.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -92513,9 +92513,9 @@ var require_lib8 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/errors.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/errors.js
 var require_errors3 = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/errors.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/errors.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -92550,9 +92550,9 @@ var require_errors3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/upload.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/upload.js
 var require_upload = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/upload.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/upload.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -98140,9 +98140,9 @@ var require_tar_fs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/archive.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/archive.js
 var require_archive = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/utils/archive.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/utils/archive.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -98203,9 +98203,9 @@ var require_archive = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/create-deployment.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/create-deployment.js
 var require_create_deployment = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/create-deployment.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/create-deployment.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -98347,9 +98347,9 @@ ${err.message}`;
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/continue.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/continue.js
 var require_continue = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/continue.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/continue.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -98573,9 +98573,9 @@ var require_continue = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/types.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/types.js
 var require_types2 = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/types.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/types.js"(exports2, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
     var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -98607,9 +98607,9 @@ var require_types2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/index.js
+// node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/index.js
 var require_dist3 = __commonJS({
-  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_77db7ec9482ce0720a51121af7931f6c/node_modules/@vercel/client/dist/index.js"(exports2, module2) {
+  "node_modules/.pnpm/@vercel+client@17.5.0_encoding@0.1.13_next@16.2.6_react-dom@19.2.4_react@19.2.4__react@_3ecff959e73510bb4e8b6ca36f5ff872/node_modules/@vercel/client/dist/index.js"(exports2, module2) {
     "use strict";
     var __create2 = Object.create;
     var __defProp2 = Object.defineProperty;
@@ -104355,6 +104355,7 @@ var package_default = {
     hono: "^4.12.25",
     husky: "^9.1.7",
     typescript: "^5.7.0",
+    vite: "^7.3.6",
     vitest: "^4.1.8",
     yaml: "^2.8.3"
   },
@@ -104395,7 +104396,6 @@ var package_default = {
       "undici@5.28.4": "^6.27.0",
       "undici@6.25.0": "^6.27.0",
       "undici@7.25.0": "^7.28.0",
-      "vite@7.3.2": "^7.3.6",
       "zod@4.1.11": "^4.4.0"
     }
   }
