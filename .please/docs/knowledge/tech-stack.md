@@ -8,7 +8,7 @@
 
 ## Package Manager
 
-- **pnpm 10.15.0** — Monorepo with workspace examples in `example/`
+- **pnpm 10.15.0** — Single-package repo (the action itself)
 
 ## Core Dependencies
 
