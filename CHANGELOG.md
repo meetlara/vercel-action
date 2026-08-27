@@ -1,5 +1,12 @@
 # Changelog
 
+## [42.2.1](https://github.com/meetlara/vercel-action/compare/v42.2.0...v42.2.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* **security:** update fast-uri from 3.1.3 to 3.1.4 ([#30](https://github.com/meetlara/vercel-action/issues/30)) ([904a427](https://github.com/meetlara/vercel-action/commit/904a427c0bcbee54dc4535e18b176ecc217a07be))
+
 ## [42.2.0](https://github.com/meetlara/vercel-action/compare/v42.1.0...v42.2.0) (2026-05-18)
 
 
