@@ -38137,9 +38137,9 @@ var require_balanced_match = __commonJS({
   }
 });
 
-// node_modules/.pnpm/brace-expansion@2.1.4/node_modules/brace-expansion/index.js
+// node_modules/.pnpm/brace-expansion@2.1.7/node_modules/brace-expansion/index.js
 var require_brace_expansion = __commonJS({
-  "node_modules/.pnpm/brace-expansion@2.1.4/node_modules/brace-expansion/index.js"(exports2, module2) {
+  "node_modules/.pnpm/brace-expansion@2.1.7/node_modules/brace-expansion/index.js"(exports2, module2) {
     var balanced = require_balanced_match();
     module2.exports = expandTop;
     var escSlash = "\0SLASH" + Math.random() + "\0";
@@ -38149,6 +38149,8 @@ var require_brace_expansion = __commonJS({
     var escPeriod = "\0PERIOD" + Math.random() + "\0";
     var EXPANSION_MAX = 1e5;
     var EXPANSION_MAX_LENGTH = 4e6;
+    var EXPANSION_MAX_DEPTH = 1e3;
+    var EXPANSION_MAX_REWRITES = 1e3;
     function numeric(str) {
       return parseInt(str, 10) == str ? parseInt(str, 10) : str.charCodeAt(0);
     }
@@ -38158,25 +38160,36 @@ var require_brace_expansion = __commonJS({
     function unescapeBraces(str) {
       return str.split(escSlash).join("\\").split(escOpen).join("{").split(escClose).join("}").split(escComma).join(",").split(escPeriod).join(".");
     }
-    function parseCommaParts(str) {
-      if (!str)
-        return [""];
-      var parts = [];
-      var m = balanced("{", "}", str);
-      if (!m)
-        return str.split(",");
-      var pre = m.pre;
-      var body = m.body;
-      var post = m.post;
-      var p = pre.split(",");
-      p[p.length - 1] += "{" + body + "}";
-      var postParts = parseCommaParts(post);
-      if (post.length) {
-        p[p.length - 1] += postParts.shift();
-        p.push.apply(p, postParts);
+    function pushAll(target, items) {
+      for (var i = 0; i < items.length; i++) {
+        target.push(items[i]);
       }
-      parts.push.apply(parts, p);
-      return parts;
+    }
+    function parseCommaParts(str) {
+      var parts = [];
+      var carry = "";
+      for (; ; ) {
+        var m = balanced("{", "}", str);
+        if (!m) {
+          var tail = str.split(",");
+          tail[0] = carry + tail[0];
+          pushAll(parts, tail);
+          return parts;
+        }
+        var pre = m.pre;
+        var body = m.body;
+        var post = m.post;
+        var p = pre.split(",");
+        p[0] = carry + p[0];
+        p[p.length - 1] += "{" + body + "}";
+        if (!post.length) {
+          pushAll(parts, p);
+          return parts;
+        }
+        carry = p.pop();
+        pushAll(parts, p);
+        str = post;
+      }
     }
     function expandTop(str, options) {
       if (!str)
@@ -38184,10 +38197,12 @@ var require_brace_expansion = __commonJS({
       options = options || {};
       var max = options.max == null ? EXPANSION_MAX : options.max;
       var maxLength = options.maxLength == null ? EXPANSION_MAX_LENGTH : options.maxLength;
+      var maxDepth = options.maxDepth == null ? EXPANSION_MAX_DEPTH : options.maxDepth;
+      var maxRewrites = options.maxRewrites == null ? EXPANSION_MAX_REWRITES : options.maxRewrites;
       if (str.substr(0, 2) === "{}") {
         str = "\\{\\}" + str.substr(2);
       }
-      return expand2(escapeBraces(str), max, maxLength, true).map(unescapeBraces);
+      return expand2(escapeBraces(str), max, maxLength, maxDepth, 0, maxRewrites, true).map(unescapeBraces);
     }
     function embrace(str) {
       return "{" + str + "}";
@@ -38261,8 +38276,12 @@ var require_brace_expansion = __commonJS({
       }
       return N;
     }
-    function expand2(str, max, maxLength, isTop) {
+    function expand2(str, max, maxLength, maxDepth, depth, maxRewrites, isTop) {
+      if (depth > maxDepth) {
+        return [str];
+      }
       var acc = [""];
+      var rewrites = 0;
       var dropEmpties = false;
       var firstGroup = true;
       for (; ; ) {
@@ -38290,7 +38309,8 @@ var require_brace_expansion = __commonJS({
         var isSequence = isNumericSequence || isAlphaSequence;
         var isOptions = m.body.indexOf(",") >= 0;
         if (!isSequence && !isOptions) {
-          if (m.post.match(/,(?!,).*\}/)) {
+          if (rewrites < maxRewrites && m.post.match(/,(?!,).*\}/)) {
+            rewrites++;
             str = m.pre + "{" + m.body + escClose + m.post;
             isTop = true;
             continue;
@@ -38314,7 +38334,7 @@ var require_brace_expansion = __commonJS({
         } else {
           var n = parseCommaParts(m.body);
           if (n.length === 1 && n[0] !== void 0) {
-            n = expand2(n[0], max, maxLength, false).map(embrace);
+            n = expand2(n[0], max, maxLength, maxDepth, depth + 1, maxRewrites, false).map(embrace);
             if (n.length === 1) {
               acc = combine(
                 acc,
@@ -38338,7 +38358,7 @@ var require_brace_expansion = __commonJS({
           values = [];
           var valuesLength = 0;
           outer: for (var j = 0; j < n.length; j++) {
-            var expanded = expand2(n[j], max, maxLength, false);
+            var expanded = expand2(n[j], max, maxLength, maxDepth, depth + 1, maxRewrites, false);
             for (var k = 0; k < expanded.length; k++) {
               var v = expanded[k];
               if (dropsEmpties && !v) continue;
@@ -51051,9 +51071,9 @@ var require_get_proto = __commonJS({
   }
 });
 
-// node_modules/.pnpm/hasown@2.0.3/node_modules/hasown/index.js
+// node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/index.js
 var require_hasown = __commonJS({
-  "node_modules/.pnpm/hasown@2.0.3/node_modules/hasown/index.js"(exports2, module2) {
+  "node_modules/.pnpm/hasown@2.0.4/node_modules/hasown/index.js"(exports2, module2) {
     "use strict";
     var call = Function.prototype.call;
     var $hasOwn = Object.prototype.hasOwnProperty;
@@ -59793,7 +59813,7 @@ var package_default = {
     "@actions/http-client": "^4.0.1",
     "@octokit/webhooks": "^14.2.0",
     "@vercel/client": "^18.2.14",
-    axios: "^1.19.0",
+    axios: "^1.20.0",
     "common-tags": "^1.8.2",
     vercel: "^59.3.0"
   },
@@ -59832,13 +59852,13 @@ var package_default = {
       "@hono/node-server@1.19.14": "^1.19.15",
       "@tootallnate/once@2.0.0": "^3.0.1",
       "ajv@8.6.3": "^8.18.0",
-      "axios@1.16.1": "^1.18.0",
+      "axios@1.16.1": "^1.20.0",
       "body-parser@>=1.0.0 <1.20.6": "^1.20.6",
       "body-parser@>=2.0.0 <2.3.0": "^2.3.0",
-      "brace-expansion@1.1.13": "^1.1.18",
-      "brace-expansion@2.1.0": "^2.1.4",
-      "brace-expansion@5.0.5": "^5.0.9",
-      "brace-expansion@5.0.6": "^5.0.9",
+      "brace-expansion@<1.1.20": "^1.1.20",
+      "brace-expansion@>=2.0.0 <2.1.6": "^2.1.6",
+      "brace-expansion@>=5.0.0 <5.0.11": "^5.0.11",
+      "browserslist@<4.28.7": "4.29.3",
       "cookie@0.4.0": "^0.7.0",
       "esbuild@>=0.20.0 <0.28.1": "^0.28.1",
       "fast-uri@3.1.4": "^3.1.7",
@@ -59847,10 +59867,8 @@ var package_default = {
       "hono@4.12.25": "^4.12.34",
       "immutable@5.1.5": "^5.1.8",
       "ip-address@10.2.0": "^10.3.1",
-      "js-yaml@3.14.2": "^3.15.1",
-      "js-yaml@3.15.0": "^3.15.1",
-      "js-yaml@4.1.1": "^4.3.1",
-      "js-yaml@4.3.0": "^4.3.1",
+      "js-yaml@>=3.0.0 <3.15.2": "^3.15.2",
+      "js-yaml@>=4.0.0 <4.3.2": "^4.3.2",
       "minimatch@10.1.1": "^10.2.3",
       "minimatch@5.0.1": "^5.1.8",
       "nanoid@3.3.12": "^3.3.18",
@@ -59867,7 +59885,7 @@ var package_default = {
       "postcss@>=8.0.0 <8.5.23": "^8.5.23",
       "qs@6.15.1": "^6.15.2",
       "sharp@0.34.5": "^0.35.0",
-      "smol-toml@1.5.2": "^1.6.1",
+      "smol-toml@<1.7.1": "^1.7.1",
       "srvx@0.8.9": "^0.11.13",
       "tar-fs@1.16.3": "^1.16.6",
       "tar@7.5.11": "^7.5.21",
