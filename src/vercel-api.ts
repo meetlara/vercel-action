@@ -8,6 +8,10 @@ import { createDeployment } from '@vercel/client'
 
 const DEFAULT_BASE_URL = 'https://api.vercel.com'
 
+// @vercel/client 18 dropped `public` from its types, but still spreads the options
+// into the request body and the API still accepts it.
+type ApiDeploymentOptions = DeploymentOptions & { public?: boolean }
+
 function buildGitMetadata(deployContext: DeploymentContext) {
   const { context } = github
   return {
@@ -59,8 +63,8 @@ function buildClientOptions(config: ActionConfig, apiUrl?: string): VercelClient
   return options
 }
 
-function buildDeploymentOptions(config: ActionConfig, deployContext: DeploymentContext): DeploymentOptions {
-  const options: DeploymentOptions = {
+function buildDeploymentOptions(config: ActionConfig, deployContext: DeploymentContext): ApiDeploymentOptions {
+  const options: ApiDeploymentOptions = {
     meta: {
       githubCommitSha: deployContext.sha,
       githubCommitAuthorName: github.context.actor,
