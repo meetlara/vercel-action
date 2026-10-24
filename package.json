@@ -44,10 +44,10 @@
     "@actions/github": "^9.1.1",
     "@actions/http-client": "^4.0.1",
     "@octokit/webhooks": "^14.2.0",
-    "@vercel/client": "^18.2.14",
+    "@vercel/client": "^18.8.7",
     "axios": "^1.20.0",
     "common-tags": "^1.8.2",
-    "vercel": "^59.3.0"
+    "vercel": "^59.26.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
