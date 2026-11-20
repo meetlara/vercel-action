@@ -1,5 +1,14 @@
 # Changelog
 
+## [42.2.1](https://github.com/meetlara/vercel-action/compare/v42.2.0...v42.2.1) (2026-11-20)
+
+
+### Bug Fixes
+
+* **deps:** bump axios and vulnerable transitive deps ([#61](https://github.com/meetlara/vercel-action/issues/61)) ([96dc1e1](https://github.com/meetlara/vercel-action/commit/96dc1e1eabe3f38ccec436e88cc98072f4b116fa))
+* **security:** fix pnpm audit vulnerabilities ([#64](https://github.com/meetlara/vercel-action/issues/64)) ([15bb81d](https://github.com/meetlara/vercel-action/commit/15bb81d539ad6b09530c496cd22f92b6ad4b95b5))
+* **security:** update fast-uri from 3.1.3 to 3.1.4 ([#30](https://github.com/meetlara/vercel-action/issues/30)) ([904a427](https://github.com/meetlara/vercel-action/commit/904a427c0bcbee54dc4535e18b176ecc217a07be))
+
 ## [42.2.0](https://github.com/meetlara/vercel-action/compare/v42.1.0...v42.2.0) (2026-05-18)
 
 
